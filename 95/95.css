@@ -51,11 +51,11 @@ body {
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 
-    padding: 10px;
-    gap: 10px;
+    padding: 25px;
+    gap: 50px;
 
 }
 
@@ -67,6 +67,43 @@ body {
     border-color: var(--white);
     background-color: var(--light-grey);
 
-    padding: 10px;
+    padding: 0px;
     
+}
+
+button {
+    background-color: red;
+
+}
+
+.x {
+    background-color: red;
+    border-style: outset;
+    border-color: var(--white);
+    
+    padding: 0px 0px;
+}
+
+
+.thing-1 {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: var(--dark-grey);
+    width: 100%;
+} .thing-2 {
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    font-weight: none;
+    padding: 10px 10px;
+
+    color: var(--light-grey);
+    text-align: center;
+    
+    text-decoration: none;
+} .thing-2 :hover {
+    background-color: var(--dark-grey);
 }
